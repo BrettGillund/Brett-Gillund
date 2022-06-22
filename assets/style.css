@@ -8,48 +8,43 @@
 html, body {
     height: 100%;
     background-color: lightgray;
-    height: 2500px;
-}
-
-
-header {
-    background-color: grey;
-    color: white;
-    font-style: italic;
-}
-
-header a {
-    color: black;
-    justify-content: flex-end;
-    margin-right: 15px;
-}
-
-.sticky-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    width: 100%;
 }
 
 a {
     color: black;
 }
 
+header {
+    background-color: grey;
+    color: white;
+    font-style: italic;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    justify-content: flex-end;
+    margin-right: 15px;
+}
+
+.active:hover {
+    text-decoration: underline;
+}
+.active:active {
+    color: red;
+}
+
+#title {
+    padding: 7px 2%;
+}
+
 main {
     display: flex;
 }
 
-#left-section {
-    
-}
-
 #photo {
     margin: 10px;
-    
-}
-
-#right-section {
     
 }
 
@@ -59,32 +54,41 @@ main {
     background-color: white;
 }
 
-#portfolio h1, p {
+#portfolio h1, h2, p {
     text-align: center;
 }
 
-.websites {
+section div {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+section div div section h3 {
+    text-align: center;
+}
+.web-samples {
     border-style: solid;
     border-width: 1px;
     border-radius: 10px;
     padding: 10px;
-    flex: 0 0 400px;
+    width: 400px;
+    height: 400px;
 }
 
-#resume h1 {
+
+#resume {
     text-align: center;
     border: 10px solid gray;
     background-color: white;
 }
+
 /* THINGS TO ADD:
-    - working a links that move to sections of page
+    DONE- working a links that move to sections of page
     - the portfolio itself
     - a media query for adjusting to different screen sizes
     - animations to examples of portfolio
-    - about me next to headshot
-    - link that opens up resume
+    DONE- about me next to headshot
+    DONE- link that opens up resume
     - make sure first application takes up the width of the display area
     - make sure that application links work, and take you to the correct location(website URL) using a hyperlink
     - find an actual decent font

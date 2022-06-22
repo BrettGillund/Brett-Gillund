@@ -9,21 +9,21 @@
 </head>
 <body>
 
-    <header class="sticky-header">
-        <h1>Brett Gillund Designs</h1>
+    <header>
+        <h1 id="title">Brett Gillund Designs</h1>
             <nav>
-                <a href="#contact-section">Contact Information</a>
-                <a href="#portfolio">Portfolio</a>
-                <a href="#resume">Resume</a>
+                <a href="#contact-section" class="active">Contact Information</a>
+                <a href="#portfolio" class="active">Portfolio</a>
+                <a href="#resume" class="active">Resume</a>
             </nav>
     </header>
 
     <main>    
-        <section id="left-section">
+        <section>
             <img id="photo" src="assets/images/Selfi.jpg" alt="Self-Portrait">
         </section>
 
-        <section id="right-section">
+        <section>
             <h2>About Me</h2>
             <p>Welcome to my portfolio! Below you will find a number of my projects, and desriptions of the languages used in them. Please feel free to reach out using the contact information tab.</p>
         </section>
@@ -35,34 +35,44 @@
         <ul>
             <a href="">Email: brettgillund@gmail.com</a>
             <p>Phone: (612)408-4708</p>
-            <a href="https://www.linkedin.com/in/brett-gillund-8a0b38131/" target="_blank">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/brett-gillund-8a0b38131/" target="_blank" class="active">Link to LinkedIn</a>
         </ul>
     </section>
 
     <section id="portfolio">
         <h1>PORTFOLIO</h1>
-        <p>Please click on the image previews to view the content.</p>
+        <p>Please click on the image previews to view content.</p>
         <div>
-            <section class="websites">
-                <header>html CSS</header>
-                <a href="https://brettgillund.github.io/Horiseon-Web-Page/" target="_blank"><img src="assets/images/Horiseon.jpg" alt="html_CSS"></a>
-            </section>
-
-            <section class="websites">
-                <header>Search Engine</header>
-                <a href="https://google.com" target="_blank"><img src="assets/images/Google.jpg" alt="Google"></a>
-            </section>
-
-            <section class="websites">
-                <header>Web-Store</header>
-                <a href="https://microcenter.com/" target="_blank"><img src="assets/images/Microcenter.jpg" alt="html_CSS"></a>
-            </section>
+            <div>
+                <section>
+                    <h3>HTML CSS Preview</h3>
+                    <a href="https://brettgillund.github.io/Horiseon-Web-Page/" target="_blank"><img src="assets/images/Horiseon.jpg" alt="html_CSS" class="web-samples"></a>
+                </section>
+            </div> 
+            <div>       
+                <section>
+                    <h3>Search Engine</h3>
+                    <a href="https://google.com" target="_blank"><img src="assets/images/Google.jpg" alt="Google" class="web-samples"></a>
+                </section>
+            </div>
+            <div>        
+                <section>
+                    <h3>Web Store</h3>
+                    <a href="https://microcenter.com/" target="_blank"><img src="assets/images/Microcenter.jpg" alt="Microcenter" class="web-samples"></a>
+                </section>
+            </div>
+            <div>        
+                <section>
+                    <h3>Social Media</h3>
+                    <a href="https://reddit.com/" target="_blank"><img src="assets/images/Reddit.jpg" alt="Reddit" class="web-samples"></a>
+                </section>
+            </div>
         </div>
     </section>
 
     <section id="resume">
         <h1>RESUME</h1>
-
+        <a href="assets/Documents/Brett Gillund Resume 2022.pdf" target="_blank" class="active">Link to Resume</a>
     </section>
 
     </body>
