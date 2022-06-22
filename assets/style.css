@@ -14,7 +14,8 @@ html, body {
 
 header {
     background-color: grey;
-    color: black;
+    color: white;
+    font-style: italic;
 }
 
 header a {
@@ -27,17 +28,44 @@ header a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
+    position: sticky;
     width: 100%;
 }
 
-#selfi {
+a {
+    color: black;
+}
+
+main {
     display: flex;
-    justify-content: center;
-    text-align: center;
+}
+
+#left-section {
+    
 }
 
 #photo {
     margin: 10px;
     
 }
+
+#right-section {
+    
+}
+
+#contact-section {
+    text-align: center;
+    justify-content: center;
+    border: 10px solid gray;
+    background-color: white;
+}
+/* THINGS TO ADD:
+    - working a links that move to sections of page
+    - the portfolio itself
+    - a media query for adjusting to different screen sizes
+    - animations to examples of portfolio
+    - about me next to headshot
+    - link that opens up resume
+    - make sure first application takes up the width of the display area
+    - make sure that application links work, and take you to the correct location(website URL) using a hyperlink
+    - find an actual decent font */
