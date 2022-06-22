@@ -24,7 +24,6 @@ header {
 }
 
 header a {
-    justify-content: flex-end;
     margin-right: 15px;
 }
 
@@ -41,6 +40,10 @@ header a {
 
 main {
     display: flex;
+}
+
+main section p {
+    text-align: left;
 }
 
 #photo {
@@ -82,14 +85,14 @@ section div div section h3 {
     background-color: white;
 }
 
-/* THINGS TO ADD:
-    DONE- working a links that move to sections of page
-    - the portfolio itself
-    - a media query for adjusting to different screen sizes
-    - animations to examples of portfolio
-    DONE- about me next to headshot
-    DONE- link that opens up resume
-    - make sure first application takes up the width of the display area
-    - make sure that application links work, and take you to the correct location(website URL) using a hyperlink
-    - find an actual decent font
-    - Add Github to portfolio*/
+@media (max-width: 600px) {
+    header{
+        flex-direction: column;
+    }
+    main{
+        flex-direction: column;
+    }
+    section div{
+        flex-direction: column;
+    }
+}
