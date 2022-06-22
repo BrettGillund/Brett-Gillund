@@ -1,0 +1,43 @@
+* {
+    font-family:Verdana, 'Geneva', Tahoma, sans-serif;
+    text-decoration: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+html, body {
+    height: 100%;
+    background-color: lightgray;
+    height: 2000px;
+}
+
+
+header {
+    background-color: grey;
+    color: black;
+}
+
+header a {
+    color: black;
+    justify-content: flex-end;
+    margin-right: 15px;
+}
+
+.sticky-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+#selfi {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#photo {
+    margin: 10px;
+    
+}
